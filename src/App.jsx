@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <div className="app-shell">
         <header>
-          <h1>Personal & PM-VIKAS Website</h1>
+          <h1>Lijin</h1>
           <nav>
             <NavLink to="/" end>
               Personal Info
