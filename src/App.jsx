@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <div className="app-shell">
         <header>
-          <h1>Lijin</h1>
+          <h1>PORTFOLIO</h1>
           <nav>
             <NavLink to="/" end>
               Personal Info
