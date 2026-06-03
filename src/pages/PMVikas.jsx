@@ -12,9 +12,6 @@ export default function PMVikas() {
         <li><strong>Key Areas:</strong> Leadership, career readiness, technology adoption</li>
         <li><strong>Outcomes:</strong> Improved employability, strong teamwork, and a growth mindset</li>
       </ul>
-      <p>
-        Use this page to describe the PM-VIKAS program, its vision, achievements, and how people can get involved.
-      </p>
     </section>
   )
 }
