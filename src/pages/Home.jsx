@@ -9,10 +9,6 @@ export default function Home() {
         <li><strong>Profession:</strong> STUDENT</li>
         <li><strong>Interests:</strong> PROGRAMING</li>
       </ul>
-      <p>
-        This page is dedicated to personal details and highlights. You can update the
-        information to reflect your own biography, education, and favorite projects.
-      </p>
     </section>
   )
 }
