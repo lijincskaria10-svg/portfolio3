@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section>
+    <section style={{ backgroundColor: '#8b5cf6', padding: '24px', borderRadius: '16px' }}>
       <h2>Contact & More</h2>
       <p>
         This third page can host contact details, additional links, or a short biography.
