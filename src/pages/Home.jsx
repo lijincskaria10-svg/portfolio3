@@ -44,7 +44,7 @@ export default function Home() {
 
         <div className="avatar-wrapper">
           <img 
-            src="/developer_avatar.png" 
+            src="/developer_avatar.jpg" 
             alt="Lijin C Skaria illustration" 
             className="avatar-image"
             id="hero-avatar"
