@@ -107,15 +107,15 @@ const DAYS_DATA = [
   },
   {
     id: 18,
-    title: "React State (useState)",
-    desc: "Manage dynamic data within React components. Learn hooks, updates, triggers, and state hoisting.",
-    tasks: ["Create a counter component with increase/decrease", "Build a toggle component for dark mode", "Handle state lift to parent elements"]
+    title: "Continuation of Day 17",
+    desc: "Deepen your understanding of sensors in Tinkercad. Learn how to calibrate analog sensor readings, handle noise, and process multi-sensor inputs.",
+    tasks: ["Calibrate raw analog sensor readings to standard units (e.g., Celsius, Lux)", "Implement software smoothing/filtering for sensor noise", "Simulate a multi-sensor array in Tinkercad"]
   },
   {
     id: 19,
-    title: "React Lifecycle & useEffect",
-    desc: "Perform side effects like fetching data, timers, and subscribing to browser events when components mount, update, or unmount.",
-    tasks: ["Fetch API data inside useEffect hook", "Explain empty dependency arrays", "Clean up a window resize listener"]
+    title: "Embedded C",
+    desc: "Learn the fundamentals of Embedded C programming. Understand memory mapping, pointer manipulations, bitwise operations, and register configurations.",
+    tasks: ["Practice bitwise operations (AND, OR, XOR, NOT, shift) in C", "Understand how pointers map to memory registers", "Configure hardware peripherals using register masks"]
   },
   {
     id: 20,
@@ -125,51 +125,51 @@ const DAYS_DATA = [
   },
   {
     id: 21,
-    title: "React Hooks (useRef & useMemo)",
-    desc: "Learn advanced React hooks: useRef to access DOM elements directly without re-renders, and useMemo to cache expensive computation.",
-    tasks: ["Focus an input element on page mount", "Track previous state using useRef", "Cache sorted arrays with useMemo"]
+    title: "Continuation of Day 20",
+    desc: "Build on Day 20 by designing more complex feedback loops combining multiple sensors with multiple actuators, creating responsive micro-systems.",
+    tasks: ["Implement non-blocking logic using millis() instead of delay()", "Integrate a secondary alarm system (buzzer/LED) with the primary actuator", "Simulate the multi-device closed-loop system in Tinkercad"]
   },
   {
     id: 22,
-    title: "React Router DOM & NavLink",
-    desc: "Build multi-page user experiences. Set up BrowserRouter, Routes, Route parameters, and link transitions.",
-    tasks: ["Install react-router-dom packages", "Map URL paths to page components", "Style active nav items with NavLink"]
+    title: "Embedded C Continuation",
+    desc: "Advanced Embedded C concepts. Master interrupts, timers, Pulse Width Modulation (PWM), and hardware serial communication setup.",
+    tasks: ["Write an Interrupt Service Routine (ISR) in C", "Configure timer registers to trigger precise events", "Generate variable duty-cycle PWM signals to control motor speeds"]
   },
   {
     id: 23,
-    title: "Tailwind CSS in React",
-    desc: "Learn utility-first styling. Set up tailwind.config, import styles, and design beautiful responsive flex grids using class names.",
-    tasks: ["Configure Tailwind CSS in React project", "Design layout using utility padding and margins", "Create a responsive flex grid layout"]
+    title: "Website Development",
+    desc: "Learn the fundamentals of front-end web development, building responsive, user-friendly layouts using HTML5, CSS3, and JavaScript.",
+    tasks: ["Create a structured responsive web layout", "Apply CSS styling with flexbox and media queries", "Add interactive behaviour using vanilla Javascript DOM manipulation"]
   },
   {
     id: 24,
-    title: "State Management & Context API",
-    desc: "Avoid prop drilling. Share global theme configs, user sessions, or cart details across nested components using React Context.",
-    tasks: ["Create a context provider for global theme settings", "Consume context states in subcomponents", "Update shared state from child components"]
+    title: "Network Topologies",
+    desc: "Understand different physical and logical layout configurations of networks. Compare Star, Mesh, Ring, Bus, and Hybrid topologies for cost, redundancy, and performance.",
+    tasks: ["Compare star, mesh, and bus network structures", "Design a redundant network layout for high availability", "Understand physical cabling vs logical traffic routing in topologies"]
   },
   {
     id: 25,
-    title: "Node.js Basics & NPM",
-    desc: "Explore JavaScript on the backend. Learn file structures, running terminal commands, package.json scripts, and importing modules.",
-    tasks: ["Run a Javascript file with Node in console", "Initialize package.json in a folder", "Import files with ESModules syntax"]
+    title: "Introduction to ESP32",
+    desc: "Explore the ESP32 system-on-chip. Learn about its dual-core CPU, integrated Wi-Fi and Bluetooth capabilities, pinout diagram, and dev board variants.",
+    tasks: ["Analyze the ESP32 pinout diagram and peripheral features", "Set up the ESP32 board support packages in IDE", "Configure a basic Wi-Fi connection in station mode"]
   },
   {
     id: 26,
-    title: "REST APIs with Express",
-    desc: "Build your first backend server. Learn Express routing, HTTP methods (GET, POST, PUT, DELETE), status codes, and request bodies.",
-    tasks: ["Listen to local port 3000 in Express", "Build standard JSON API route endpoints", "Test response outputs with client tools"]
+    title: "ESP IDF",
+    desc: "Get started with the official Espressif IoT Development Framework (ESP-IDF). Learn the project structure, compilation toolchain, and FreeRTOS basics.",
+    tasks: ["Install and configure the ESP-IDF CLI toolchain", "Create, compile, and flash a basic ESP-IDF template project", "Understand task scheduling and queue mechanisms in FreeRTOS"]
   },
   {
     id: 27,
-    title: "Database Basics & MongoDB",
-    desc: "Understand relational (SQL) vs document (NoSQL) databases. Set up an online database cluster and write database schemas.",
-    tasks: ["Compare SQL with NoSQL architectures", "Initialize a cluster database connection", "Understand collections and document stores"]
+    title: "Simulation in Wokwi",
+    desc: "Use the online simulator Wokwi to run and debug ESP32 projects. Simulate hardware connections, displays, and Wi-Fi networks in real-time.",
+    tasks: ["Learn the Wokwi diagram.json configuration format", "Build an ESP32 circuit simulated in Wokwi", "Debug firmware running in the browser simulator"]
   },
   {
     id: 28,
-    title: "Introduction to Prisma ORM",
-    desc: "Connect Express with databases using Prisma. Define database models in schema.prisma, configure database URL, and run migrations.",
-    tasks: ["Install prisma and schema generators", "Write database models (User, Post)", "Run migrations to sync database schemas"]
+    title: "Introduction to Raspberry Pi",
+    desc: "Introduction to Single Board Computers (SBCs). Learn about the Raspberry Pi architecture, operating systems (Raspberry Pi OS), and GPIO control with Python.",
+    tasks: ["Compare Microcontrollers (MCU) with Single Board Computers (SBC)", "Flash and configure Raspberry Pi OS on an SD card", "Write a Python script to control Raspberry Pi GPIO pins"]
   },
   {
     id: 29,
