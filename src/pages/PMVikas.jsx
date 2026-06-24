@@ -5,9 +5,9 @@ import { Calendar, Award, CheckCircle, Clock, BookOpen, X, CheckSquare, Edit3 } 
 const DAYS_DATA = [
   {
     id: 1,
-    title: "Intro to Web & HTML5 Basics",
-    desc: "Learn how the internet and web browsers work. Build your first webpage using semantic HTML5 tags (header, nav, section, article, footer), headings, lists, and images.",
-    tasks: ["Learn client-server architecture", "Use HTML5 semantic tags", "Create a basic structure with lists and links"]
+    title: "Basics of Digital Electronics",
+    desc: "Learn the fundamentals of digital electronics, including number systems, logic gates, Boolean algebra, and basic combinational circuits.",
+    tasks: ["Study number systems (Binary, Hexadecimal)", "Understand basic logic gates & truth tables", "Apply Boolean algebra to simplify circuits"]
   },
   {
     id: 2,
