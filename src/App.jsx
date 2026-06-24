@@ -56,7 +56,7 @@ function App() {
               <GithubIcon size={18} />
             </a>
             <a 
-              href="https://linkedin.com/in/yourprofile" 
+              href="https://linkedin.com/in/lijin-c-skaria-ba53b736b" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="footer-link"

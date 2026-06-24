@@ -71,7 +71,7 @@ export default function Contact() {
           </a>
 
           <a 
-            href="https://linkedin.com/in/yourprofile" 
+            href="https://linkedin.com/in/lijin-c-skaria-ba53b736b" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="contact-card"
@@ -82,7 +82,7 @@ export default function Contact() {
             </div>
             <div className="contact-card-details">
               <h4>LinkedIn</h4>
-              <p>linkedin.com/in/lijin-c-skaria</p>
+              <p>linkedin.com/in/lijin-c-skaria-ba53b736b</p>
             </div>
           </a>
 
