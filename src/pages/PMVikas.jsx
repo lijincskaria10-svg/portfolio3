@@ -65,45 +65,45 @@ const DAYS_DATA = [
   },
   {
     id: 11,
-    title: "JavaScript Arrays & Methods",
-    desc: "Work with lists of data. Master advanced array traversal methods like map(), filter(), reduce(), and find().",
-    tasks: ["Filter out odd numbers from a list", "Double array values using map()", "Sum up shopping cart items using reduce()"]
+    title: "Introduction to Tour of Go",
+    desc: "Begin your Go programming journey with the official interactive Tour of Go. Learn basic syntax, variables, and primitive types in Go.",
+    tasks: ["Complete the basic syntax section on the Tour of Go", "Write your first Go program printing to console", "Explore Go variables, constants, and type declarations"]
   },
   {
     id: 12,
-    title: "Objects & ES6+ Features",
-    desc: "Explore key-value pairs, nested objects, object destructuring, spread/rest operators, and array/object shorthand.",
-    tasks: ["Create a detailed profile object", "Use object destructuring in a function", "Merge two objects using spread operator"]
+    title: "Ubuntu in Detail",
+    desc: "Master the Ubuntu Linux operating system. Learn package management, user administration, file permissions, and advanced shell scripting.",
+    tasks: ["Learn APT package manager commands (install, update, remove)", "Understand Linux file permissions (chmod, chown)", "Write a basic bash script to automate file backups"]
   },
   {
     id: 13,
-    title: "DOM Manipulation & Events",
-    desc: "Learn to connect JS with HTML. Select elements using querySelector, update text/styles, create elements, and listen to click and keyboard events.",
-    tasks: ["Select and edit an HTML element dynamic text", "Create a new DOM node and append it", "Build an event listener for button click"]
+    title: "Introduction to GoLang",
+    desc: "Learn GoLang flow control statements, structures, slices, maps, methods, and interfaces. Understand what makes Go powerful for system-level programming.",
+    tasks: ["Write if/else, for loops, and switch statements in Go", "Define Go structs and use slices to manage lists of data", "Implement a simple Go interface and dynamic methods"]
   },
   {
     id: 14,
-    title: "Local Storage & Session Storage",
-    desc: "Persist user data inside the web browser. Learn JSON.stringify and JSON.parse to save complex arrays and objects.",
-    tasks: ["Write key-value items to localStorage", "Retrieve and load items on page reload", "Clear storage programmatically"]
+    title: "Communication Protocols",
+    desc: "Study the design, specifications, and applications of key networking and hardware communication protocols such as HTTP, TCP, UDP, MQTT, UART, and I2C.",
+    tasks: ["Compare connection-oriented TCP with connectionless UDP", "Understand MQTT publish-subscribe mechanism for IoT", "Differentiate physical layer serial protocols like I2C, SPI, and UART"]
   },
   {
     id: 15,
-    title: "Asynchronous JS & Promises",
-    desc: "Understand callback hell, the Event Loop, Promises, resolve/reject states, and how async/await simplifies asynchronous code flow.",
-    tasks: ["Write a promise that resolves after 2 seconds", "Convert a promise chain to async/await syntax", "Handle catch block errors correctly"]
+    title: "Introduction to Arduino",
+    desc: "Get familiar with the Arduino development ecosystem. Learn the structure of an Arduino sketch, setup & loop functions, and basic GPIO control.",
+    tasks: ["Set up and navigate the Arduino IDE", "Understand the anatomy of an Arduino sketch (setup vs loop)", "Write a simple program to blink an on-board LED"]
   },
   {
     id: 16,
-    title: "Fetch API & Rest Endpoints",
-    desc: "Connect your frontend to servers. Fetch data from mock APIs (JSONPlaceholder) and render lists dynamically.",
-    tasks: ["Call an external API using fetch()", "Display data records on webpage loading", "Add a loading indicator during fetch request"]
+    title: "Simulation of Ten Actuators in Tinkercad",
+    desc: "Simulate and control 10 different electronic actuators (e.g., servo motors, DC motors, piezo buzzers, LCD displays) in Tinkercad.",
+    tasks: ["Learn what actuators are and how they interact with microcontrollers", "Connect and code a Servo Motor in Tinkercad", "Assemble and simulate at least 10 actuators in Tinkercad"]
   },
   {
     id: 17,
-    title: "Intro to React & JSX",
-    desc: "Understand what React is, Single Page Applications, Vite bundlers, components, JSX rules, and how to pass variables as props.",
-    tasks: ["Set up a new React project in Vite", "Create your first reusable component", "Pass custom parameters through props"]
+    title: "Simulation of Ten Sensors in Tinkercad",
+    desc: "Simulate and read inputs from 10 different sensors (e.g., ultrasonic range finder, PIR motion sensor, temperature sensor, LDR) in Tinkercad.",
+    tasks: ["Differentiate between analog and digital sensor inputs", "Build a Tinkercad circuit measuring distance with an ultrasonic sensor", "Configure and read telemetry from 10 sensors in Tinkercad"]
   },
   {
     id: 18,
@@ -119,9 +119,9 @@ const DAYS_DATA = [
   },
   {
     id: 20,
-    title: "React Controlled Forms",
-    desc: "Manage user inputs in React. Listen to onChange events, handle multiple inputs in a single state, and prevent default form submission.",
-    tasks: ["Build a controlled input text component", "Manage form submit handler in React", "Display error messages on submit validations"]
+    title: "Simulation of Circuits with One Sensor and One Actuator",
+    desc: "Build logic-driven feedback loop circuits in Tinkercad where sensor readings directly trigger actuator responses (e.g., LDR controlling a servo, temperature sensor activating a motor).",
+    tasks: ["Design a smart lighting circuit where LDR brightness controls an LED/Servo", "Write feedback logic mapping input sensor range to output actuator range", "Simulate the integrated sensor-actuator circuit in Tinkercad"]
   },
   {
     id: 21,
