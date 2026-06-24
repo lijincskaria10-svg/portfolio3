@@ -11,57 +11,57 @@ const DAYS_DATA = [
   },
   {
     id: 2,
-    title: "Advanced HTML & Forms",
-    desc: "Master forms, input validation, tables, and media elements. Learn how to structure clean documents that are accessible (A11y) and SEO-optimized.",
-    tasks: ["Build a contact form with input types", "Add client-side validation attributes", "Write semantic table layouts"]
+    title: "Simulation of Circuits in CircuitVerse",
+    desc: "Learn to design, simulate, and debug digital logic circuits using the online tool CircuitVerse. Build combinational logic like adders and multiplexers.",
+    tasks: ["Create account and learn CircuitVerse interface", "Design a Half-Adder and Full-Adder circuit", "Simulate a 2-to-1 Multiplexer and verify truth tables"]
   },
   {
     id: 3,
-    title: "CSS Foundations & Selectors",
-    desc: "Dive into styling with Cascading Style Sheets. Learn classes, IDs, attribute selectors, CSS color systems, fonts, and typography hierarchies.",
-    tasks: ["Style a page using external CSS stylesheet", "Practice CSS specificity rules", "Implement modern typography with Google Fonts"]
+    title: "Microcontrollers and Microprocessors",
+    desc: "Understand the core architecture differences between microprocessors (CPU, external RAM/ROM) and microcontrollers (all-in-one SOC). Learn about instruction sets and basic interfacing.",
+    tasks: ["Compare CPU and MCU architectures", "Learn register-level configuration concepts", "Understand GPIO (General Purpose Input/Output) operation"]
   },
   {
     id: 4,
-    title: "The Box Model & CSS Flexbox",
-    desc: "Understand margins, borders, padding, and content box. Master one-dimensional layouts using Flexbox (justify-content, align-items, flex-direction).",
-    tasks: ["Master box-sizing: border-box", "Build a responsive navigation bar", "Create flex-row and flex-column alignments"]
+    title: "Simulation in Proteus and Keil",
+    desc: "Write firmware in Keil C/assembly and simulate your microcontrollers using Proteus Virtual System Modeling. Learn how to debug code on virtual hardware.",
+    tasks: ["Set up a workspace in Keil uVision IDE", "Write a basic LED blinking program in C/assembly", "Design a circuit in Proteus and simulate the LED blinking"]
   },
   {
     id: 5,
-    title: "CSS Grid Layouts",
-    desc: "Learn two-dimensional page design using CSS Grid. Explore grid-template-columns, grid-areas, gap, auto-fit, and minmax values.",
-    tasks: ["Design a 3-column dashboard layout", "Implement responsive grid template areas", "Use minmax for flexible column sizing"]
+    title: "Computer Networking",
+    desc: "Explore the fundamentals of computer networking, IP addressing, routing, switching, and common network topologies.",
+    tasks: ["Understand IPv4 and IPv6 addressing", "Compare LAN, WAN, and MAN network types", "Learn about network devices like switches and routers"]
   },
   {
     id: 6,
-    title: "Responsive Design & CSS Variables",
-    desc: "Create responsive websites using Media Queries. Learn CSS custom properties (variables) to build themes like dark mode.",
-    tasks: ["Create breakpoints for mobile and desktop", "Define global CSS color variables", "Apply transitions on hover effects"]
+    title: "Data Communication",
+    desc: "Learn how data is transmitted between nodes. Explore serial and parallel communication, transmission media, and communication protocols (UART, SPI, I2C).",
+    tasks: ["Compare Serial and Parallel communication speed & reliability", "Understand UART, SPI, and I2C protocols", "Study transmission media like fiber optics and twisted pair cables"]
   },
   {
     id: 7,
-    title: "Version Control with Git & GitHub",
-    desc: "Set up Git, create repositories, track files, make commits, and push code to GitHub. Learn basics of branching and pull requests.",
-    tasks: ["Install and configure Git globally", "Make commits with descriptive messages", "Push your repository to GitHub"]
+    title: "Cisco Packet Tracer",
+    desc: "Use Cisco Packet Tracer to model, configure, and simulate complex network topologies. Learn to configure switches and routers using the CLI.",
+    tasks: ["Build a basic network topology with PCs and a switch", "Configure router IP addresses and static routing", "Use ping and traceroute to verify network connectivity"]
   },
   {
     id: 8,
-    title: "JavaScript Basics & Variables",
-    desc: "Learn programming concepts: primitive types, variable declarations (let, const), basic arithmetic, string interpolation, and comments.",
-    tasks: ["Use console.log for debugging", "Perform arithmetic operations", "Apply template literals for string formatting"]
+    title: "OSI Model",
+    desc: "Study the 7 layers of the Open Systems Interconnection model. Understand data encapsulation and how protocols operate at each layer.",
+    tasks: ["Memorize the 7 layers of the OSI model", "Understand the function of the Physical, Network, and Transport layers", "Map protocols like HTTP, TCP, IP, and Ethernet to their respective layers"]
   },
   {
     id: 9,
-    title: "Control Flow & Conditionals",
-    desc: "Make decisions in code using if/else statements, ternary operators, switch statements, and loop structures (for, while, and do-while).",
-    tasks: ["Write conditional check logic", "Build a multiplication table using loops", "Implement a simple calculator switch case"]
+    title: "Cloud Computing",
+    desc: "Learn cloud computing paradigms: IaaS, PaaS, SaaS. Explore cloud providers (AWS, Azure, GCP) and services like virtual machines, storage, and serverless.",
+    tasks: ["Compare IaaS, PaaS, and SaaS models", "Understand cloud storage and database basics", "Explore virtual machines and compute hosting"]
   },
   {
     id: 10,
-    title: "Functions & Scope",
-    desc: "Understand reusable blocks of code. Learn function declarations, function expressions, arrow functions, return values, parameters, and global vs local scope.",
-    tasks: ["Write standard and arrow functions", "Create a function returning computed values", "Explain variable scope block rules"]
+    title: "Introduction to Docker",
+    desc: "Understand containerization concepts. Learn how to write a Dockerfile, build images, and run containers to ensure application portability.",
+    tasks: ["Learn difference between Virtual Machines and Containers", "Write a simple Dockerfile", "Build and run a container locally"]
   },
   {
     id: 11,
