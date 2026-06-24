@@ -21,9 +21,8 @@ export default function Home() {
             Hi, I'm <span className="hero-gradient-text">Lijin C Skaria</span>
           </h1>
           <p className="hero-description">
-            I am a passionate student and aspiring software developer based in Pampady. 
-            I love creating sleek, professional web applications with React and learning 
-            modern full-stack technologies.
+            I am a passionate ECE student who loves working on electronic circuits and projects. 
+            I live in Kottayam and want to explore the world.
           </p>
           
           <div className="hero-stats">
@@ -76,7 +75,7 @@ export default function Home() {
           </div>
           <div className="info-card-content">
             <h3>Location</h3>
-            <p>Pampady, Kerala</p>
+            <p>Kottayam, Kerala</p>
           </div>
         </div>
 
@@ -86,7 +85,7 @@ export default function Home() {
           </div>
           <div className="info-card-content">
             <h3>Profession</h3>
-            <p>Student & Dev</p>
+            <p>ECE Student</p>
           </div>
         </div>
 
@@ -96,7 +95,7 @@ export default function Home() {
           </div>
           <div className="info-card-content">
             <h3>Interests</h3>
-            <p>Programming</p>
+            <p>Electronics</p>
           </div>
         </div>
       </div>
